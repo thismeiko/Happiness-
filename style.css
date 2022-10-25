@@ -1,0 +1,27 @@
+body{
+background-color:blanchedalmond;
+margin: 0;
+padding: 0;
+width:100vh;
+height:100vh;
+display: flex;
+justify-content: center;
+align-items:center;
+}
+
+#canvas{
+    position:absolute;
+    top:10px;
+    left:10px;
+    z-index: 1;
+}
+
+#video{
+    position:absolute;
+    top:10px;
+    left:10px;
+    z-index:0;
+
+    border: 3px #fff solid;
+    border-radius: 10px;
+}
